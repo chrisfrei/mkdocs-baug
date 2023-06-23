@@ -1,4 +1,7 @@
 site_name: BAUT IT Doc
+site_url: https://chrisfrei.github.io/mkdocs-baug/
+repo_url: https://github.com/chrisfrei/mkdocs-baug
+edit_uri: blob/main/docs/
 theme:
   name: material
   features:
@@ -15,19 +18,16 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline 
+        icon: material/toggle-switch-off-outline
         name: Switch to dark mode
       primary: teal
-      accent: purple 
-    - scheme: slate 
+      accent: purple
+    - scheme: slate
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode    
+        name: Switch to light mode
       primary: teal
       accent: lime
-
-plugins:
-  - social
 
 extra:
   social:
